@@ -1,0 +1,184 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+    width: 1400px;
+    background: #2965f1;
+    padding: 23px 0;
+}
+
+header span {
+    font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #fff;
+}
+
+.main-section {
+    background: #fafaff;
+    padding: 60px 0;
+    height: 1024px;
+    /* Стили для первой секции */
+}
+
+.main-title {
+    font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 48px;
+color: #303030;
+margin-bottom: 20px;
+    /* Стили для заголовка в первой секции */
+}
+
+.main-text {
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #303030;
+    /* Стили для текста в первой секции */
+}
+
+.main-image {
+    max-height: 715px;
+    /* Стили для изображения в первой секции */
+}
+
+
+.about-section {
+    fill: #fff;
+    padding: 100px 0 ;
+    /* Стили для второй секции */
+}
+
+select {
+    width: 150px;
+height: 36px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+border-radius: 5px;
+width: 150px;
+height: 36px;
+background: rgba(255, 255, 255, 0);
+background-image: url("./ep_arrow-down.svg");
+background-repeat: no-repeat;
+background-position: right 10px top 50%;
+appearance: none;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #303030;
+padding-left: 12px;
+
+    /* Стили для выпадающего списка */
+}
+
+.section-title {
+    font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 24px;
+color: #303030;
+padding-bottom: 25px;
+    /* Стили для заголовков во второй секции */
+}
+
+.skills-list { }
+.frameworks-list {
+    list-style-image: url(./solar_map-arrow-up-bold.png);
+    padding-left: 20px;
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #303030;
+    /* Стили для маркированного списка во второй секции */
+}
+
+.books-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #303030;
+    /* Стили для нумерованного списка во второй секции */
+}
+
+.label {
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #303030;
+    /* Стили для подписей чекбоксов */
+}
+
+.text-field {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+border: 1px solid rgba(48, 48, 48, 0.3);
+border-radius: 5px;
+width: 330px;
+height: 36px;
+background: rgba(255, 255, 255, 0);
+padding-left: 12px;
+    /* Стили для односточного поля ввода текста */
+}
+
+.btn {
+    border-radius: 5px;
+width: 125px;
+height: 36px;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 14px;
+color: #fff;
+background: #2965f1;
+border: none;
+    /* Стили для кнопки */
+}
+
+.line {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    /* Стили для линии */
+}
+
+table {
+    width: 300px;
+    border-collapse: collapse; /* Объединение границ */
+    border: 1px solid #95a1bb; /* Граница таблицы */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #303030;
+}
+
+th, td {
+    border: 1px solid #95a1bb; /* Границы ячеек */
+    padding: 10px; /* Внутренние отступы */
+}
+
+footer {
+    background: rgba(163, 167, 255, 0.3);
+    padding-top: 26px;
+    padding-bottom: 27px;
+    /* Стили для футера */
+}
+
+.footer-link {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: #2965f1;
+    /* Стили для футера */
+}
+.footer-link:visited{
+    color: #2965f1
+}
