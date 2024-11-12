@@ -5,7 +5,8 @@
 }
 
 body {
-
+    font-family: "Inter", sans-serif;
+    color: #303030; 
 }
 
 header {
@@ -46,7 +47,7 @@ color: #303030;
 }
 
 .main-image {
-    max-height: 715px;
+   max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 
@@ -83,14 +84,14 @@ padding-left: 12px;
 font-weight: 700;
 font-size: 24px;
 color: #303030;
-padding-bottom: 25px;
+margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .skills-list { }
 .frameworks-list {
     list-style-image: url(./solar_map-arrow-up-bold.png);
-    padding-left: 20px;
+    padding:0 20px;
     font-family: "Inter", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -100,7 +101,7 @@ color: #303030;
 
 .books-list {
     list-style-type: decimal;
-    padding-left: 20px;
+    padding:0 20px;
     font-family: "Inter", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -161,13 +162,12 @@ table {
 
 th, td {
     border: 1px solid #95a1bb; /* Границы ячеек */
-    padding: 10px; /* Внутренние отступы */
+    padding: 12px 15px; /* Внутренние отступы */
 }
 
 footer {
     background: rgba(163, 167, 255, 0.3);
-    padding-top: 26px;
-    padding-bottom: 27px;
+    padding:26px 0 ;
     /* Стили для футера */
 }
 
